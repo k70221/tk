@@ -1,12 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>tk</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-  <p>Hello, World!</p>
+  <div class="nav">
+    Traveling Korea
+    <div class="nav-items">
+      <div class="nav-item">여행지</div>
+      <div class="nav-item">리뷰</div>
+      <div class="nav-item">마이페이지</div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="title">
+      원하시는 여행지를 선택하세요
+    </div>
+    <div id="places">
+      <div id="seoul" class="place" data-board-id="seoul_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/AouQCJw.png>
+          <span>서울특별시</span>
+        </div>
+      </div>
+      <div id="daejeon" class="place" data-board-id="daejeon_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/Hi8cdhy.jpg>
+          <span>광역시(광주, 대전, 인천)</span>
+        </div>
+      </div>
+      <div id="busan" class="place" data-board-id="busan_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/0UZCFrd.jpg>
+          <span>광역시(대구, 부산, 울산)</span>
+        </div>
+      </div>
+      <div id="gyeonggi" class="place" data-board-id="gyeonggi_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/LoWFVMz.jpg>
+          <span>경기도</span>
+        </div>
+      </div>
+      <div id="gangwon" class="place" data-board-id="gangwon_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/2ZTdgBj.jpg>
+          <span>강원도</span>
+        </div>
+      </div>
+      <div id="chungbuk" class="place" data-board-id="chungbuk_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/V5wgBvJ.jpg>
+          <span>충청북도</span>
+        </div>
+      </div>
+      <div id="chungnam" class="place" data-board-id="chungnam_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/Ofge5Zx.jpg>
+          <span>충청남도</span>
+        </div>
+      </div>
+      <div id="jeonbuk" class="place" data-board-id="jeonbuk_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/MZBsQKy.png>
+          <span>전라북도</span>
+        </div>
+      </div>
+      <div id="jeonnam" class="place" data-board-id="jeonnam_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/wftagWl.png>
+          <span>전라남도</span>
+        </div>
+      </div>
+      <div id="gyeongbuk" class="place" data-board-id="gyeongbuk_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/FkGZm7H.png>
+          <span>경상북도</span>
+        </div>
+      </div>
+      <div id="gyeongnam" class="place" data-board-id="gyeongnam_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/SWQ6EA3.jpg>
+          <span>경상남도</span>
+        </div>
+      </div>
+      <div id="jeju" class="place" data-board-id="jeju_board">
+        <div class="place-content">
+          <img src=https://i.imgur.com/RMtXw2q.jpg>
+          <span>제주도</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="boards">
+      <div id="seoul_board" class="board" style="display: none;">
+        <h2>서울특별시 게시판</h2>
+      </div>
+      <div id="daejeon_board" class="board" style="display: none;">
+        <h2>광역시(광주, 대전, 인천) 게시판</h2>
+      </div>
+      <div id="busan_board" class="board" style="display: none;">
+        <h2>광역시(대구, 부산, 울산) 게시판</h2>
+      </div>
+      <div id="gyeonggi_board" class="board" style="display: none;">
+        <h2>경기도 게시판</h2>
+      </div>
+      <div id="gangwon_board" class="board" style="display: none;">
+        <h2>강원도 게시판</h2>
+      </div>
+      <div id="chungbuk_board" class="board" style="display: none;">
+        <h2>충청북도 게시판</h2>
+      </div>
+      <div id="chungnam_board" class="board" style="display: none;">
+        <h2>충청남도 게시판</h2>
+      </div>
+      <div id="jeonbuk_board" class="board" style="display: none;">
+        <h2>전라북도 게시판</h2>
+      </div>
+      <div id="jeonnam_board" class="board" style="display: none;">
+        <h2>전라남도 게시판</h2>
+      </div>
+      <div id="gyeongbuk_board" class="board" style="display: none;">
+        <h2>경상북도 게시판</h2>
+      </div>
+      <div id="gyeongnam_board" class="board" style="display: none;">
+        <h2>경상남도 게시판</h2>
+      </div>
+      <div id="jeju_board" class="board" style="display: none;">
+        <h2>제주도 게시판</h2>
+      </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 </body>
+
 </html>
